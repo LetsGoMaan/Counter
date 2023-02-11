@@ -1,0 +1,83 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.counter {
+    width: 600px;
+    height: 400px;
+    border: 5px solid blueviolet;
+    background-color: #0D0C27;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    aalign-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    gap: 20px;
+    z-index: 999;
+}
+
+.counterDisplay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+    height: 230px;
+    background-color: #0D0C27;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: 2px solid blueviolet;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    width: 550px;
+    height: 100px;
+    justify-content: space-around;
+    border: 2px solid blueviolet;
+    background-color: #0D0C27;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.setButton {
+    font-size: 40px;
+    background-color: #76E32D;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.setButton:disabled {
+    color: white;
+    background-color: grey;
+    opacity: 0.5;
+}
+
+
+
+
+
+
