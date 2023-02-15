@@ -1,0 +1,47 @@
+.setButton {
+    font-size: 40px;
+    background-color: #76E32D;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.setButton:disabled {
+    color: white;
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.resetButton {
+    font-size: 20px;
+    background-color: #76E32D;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.resetButton:disabled {
+    color: white;
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.incButton {
+    font-size: 20px;
+    background-color: #76E32D;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.incButton:disabled {
+    color: white;
+    background-color: grey;
+    opacity: 0.5;
+}
+
+
+
+
+
+

@@ -24,7 +24,9 @@ function App() {
     }
 
 
-    const error = startValue < 0 || startValue >= maxValue ? true : false
+    const error = startValue < 0 || startValue >= maxValue
+
+
 
 
   return (
@@ -54,6 +56,7 @@ function App() {
                 setEditMode = {setEditMode}
                 editMode={editMode}
                 error = {error}
+                setCounter = {setCounter}
             />
         </div>
     </>
